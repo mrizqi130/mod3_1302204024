@@ -10,6 +10,11 @@ namespace modul3_1302204024
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("ehe");
+            KodeBuah kode = new KodeBuah();
+            //string a = Console.ReadLine();
+
+            Console.WriteLine("Kode Buah Apel adalah "+kode.getKodeBuah(KodeBuah.daftarEnum.Apel));
         }
     }
 }
